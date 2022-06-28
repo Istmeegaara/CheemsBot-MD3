@@ -54,11 +54,11 @@ global.vidmenu = { url: 'https://telegra.ph/file/8c2cecd8ccb318ca64b7b.mp4' } //
 global.packname = "© Rena Bot\n\n\n\n\n\n\n@gaara_xploite"
 global.author = "Multi Device"
 global.themeemoji = "🤔"
-global.reactmoji = "🤡"
+global.reactmoji = "😎"
 global.ownertag = ['201507384088'] //ur owner tag
 global.ownernummenu = ['wa.me/201507384088'] //ur owner number in menu and all
 global.watermark = "Rena Bot MD." //ur watermark
-global.botscript = "https://github.com/VarrX/BotMD"
+global.botscript = "https://github.com/gaaradel/botwa"
 global.linkz1 = "https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm"
 global.linkz2 = "https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm"
 
