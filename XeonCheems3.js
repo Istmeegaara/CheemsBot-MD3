@@ -298,11 +298,11 @@ _sewa.expiredCheck(XeonBotInc, sewa)
 
 //group target by xeon\\
 const reply = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Join Official Gc`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz1}`}}}, { quoted: m})
         }
         
         const replay = (teks) => {
-            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Subscribe YouTube Channel`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
+            XeonBotInc.sendMessage(m.chat, { text: teks, contextInfo:{"externalAdReply": {"title": ` ${global.botname}`,"body": `Join Official Gc`, "previewType": "PHOTO","thumbnailUrl": ``,"thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),"sourceUrl": `${linkz2}`}}}, { quoted: m})
         }
         //auto reply by xeon
   //if (Autoreply) //remove forwad slashes to make it autoreply on off
@@ -836,7 +836,7 @@ user.afkReason = ''
 // Detect Group Invite
 if (m.mtype === 'groupInviteMessage') {
 teks = `Type .owner to join your whatsapp group`
-sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'), `${watermark}`, `${botname}`, "916909137213@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
+sendOrder(m.chat, teks, "5123658817728409", fs.readFileSync('./XeonMedia/theme/cheemspic.jpg'), `${watermark}`, `${botname}`, "201507384088@s.whatsapp.net", "AR7zJt8MasFx2Uir/fdxhkhPGDbswfWrAr2gmoyqNZ/0Wg==", "99999999999999999999")
 }
 /*const bodyyy = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == 'imageMessage') ? m.message.imageMessage.caption : (m.mtype == 'videoMessage') ? m.message.videoMessage.caption : (m.mtype == 'extendedTextMessage') ? m.message.extendedTextMessage.text : (m.mtype == 'buttonsResponseMessage') ? m.message.buttonsResponseMessage.selectedButtonId : (m.mtype == 'listResponseMessage') ? m.message.listResponseMessage.singleSelectReply.selectedRowId : (m.mtype == 'templateButtonReplyMessage') ? m.message.templateButtonReplyMessage.selectedId : (m.mtype === 'messageContextInfo') ? (m.message.buttonsResponseMessage?.selectedButtonId || m.message.listResponseMessage?.singleSelectReply.selectedRowId || m.text) : ''
 if (!isCmd && !m.isGroup && !m.key.fromMe) {
@@ -898,7 +898,7 @@ XeonBotInc.sendMessage(from, {text:`\`\`\`「 Wa.me Link Detected 」\`\`\`\n\n@
 //anti bad words by xeon
 if (antiToxic)
 if (bad.includes(messagesD)) {
-tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🤢','Dont be toxic🦄']
+tos = ['Hey, watch your mouth','Never been taught how to speak?','Stop being toxic my friend🤢','Dont be toxic!']
 sin =  tos[Math.floor(Math.random() * (tos.length))]
 reply(sin)
 if (m.text) {
@@ -1395,11 +1395,11 @@ message: {
                 },
 	 message: { 
                  "videoMessage": { 
-                 "title": `Xeon`,
-                 "h": `Xeon`,
+                 "title": `Gaara`,
+                 "h": `Gaara`,
                  'duration': '99999', 
                  'gifPlayback': 'true', 
-                 'caption': `Xeon`,
+                 'caption': `Gaara`,
                  'jpegThumbnail': fs.readFileSync('./XeonMedia/theme/Cheems-bot.mp4')
                         }
                        }
@@ -1544,7 +1544,7 @@ const jumlahUser = pendaftar.length
 const menulist = `┌─❖
 │「 Hi 👋 」
 └┬❖ 「 ${pushname} 」
-┌┤✑  How Are You? 😄
+┌┤✑  How Are You?😁
 │└────────────┈ ⳹
 │
 └─「 𝘽𝙊𝙏 𝙄𝙉𝙁𝙊 」       
@@ -1600,27 +1600,27 @@ if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 	                let btn = [{
                                 urlButton: {
-                                    displayText: 'YouTube 🍒',
+                                    displayText: 'YouTube',
                                     url: `${websitex}`
                                 }
                             }, {
                                 callButton: {
-                                    displayText: 'Script 🍜',
+                                    displayText: 'Script Bot',
                                     url: `${botscript}`
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'All Menu 🍱',
+                                    displayText: 'All Menu',
                                     id: 'allmenu'
                                 }
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'List Menu 🍢',
+                                    displayText: 'List Menu',
                                     id: 'command'
                                 }  
                             }, {
                                 quickReplyButton: {
-                                    displayText: 'Owner 🤣',
+                                    displayText: 'Owner',
                                     id: 'owner'
                                 }
                             }]
@@ -1635,11 +1635,11 @@ XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key 
                         XeonBotInc.send5ButMsg(m.chat, menulist, global.botname, btn)
                         } else if (setbot.templateDocument) {
                         let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+        	{ urlButton: { displayText: `YouTube`, url : `${websitex}` } },
+            { urlButton: { displayText: `Script`, url: `${botscript}` } },
+            { quickReplyButton: { displayText: `All Menu`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `List Menu`, id: 'command'} },
+            { quickReplyButton: { displayText: `Owner`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
                         }
@@ -1651,20 +1651,20 @@ if (isBan) return reply(mess.ban)
 if (isBanChat) return reply(mess.banChat)
 XeonBotInc.sendMessage(from, { react: { text: `${global.reactmoji}`, key: m.key }})
 let buttonmenu = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-            { urlButton: { displayText: `Script 🍜`, url: `${botscript}` } },
-            { quickReplyButton: { displayText: `All Menu 🍱`, id: 'allmenu'} },
-            { quickReplyButton: { displayText: `List Menu 🍢`, id: 'command'} },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'} }
+        	{ urlButton: { displayText: `YouTube`, url : `${websitex}` } },
+            { urlButton: { displayText: `Script`, url: `${botscript}` } },
+            { quickReplyButton: { displayText: `All Menu`, id: 'allmenu'} },
+            { quickReplyButton: { displayText: `List Menu`, id: 'command'} },
+            { quickReplyButton: { displayText: `Owner`, id: 'owner'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: menulist, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `${ownername}`, templateButtons: buttonmenu, footer: `${botname}`, mentionedJid: [m.sender] })
         	break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 	if (isBan) return reply(mess.ban)	 			
 if (isBanChat) return reply(mess.banChat)
-teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate 🍜`
+teks = `*「 ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nDont forget to donate`
 let buttons = [
-{buttonId: `menu`, buttonText: {displayText: 'Menu 🌺'}, type: 1}
+{buttonId: `menu`, buttonText: {displayText: 'Menu'}, type: 1}
 ]
 let buttonMessage = {
 image: thum,
@@ -1678,8 +1678,8 @@ title:"I deserve something for my hardwork",
 body: "Click to donate", 
 thumbnail: fs.readFileSync("XeonMedia/theme/cheemspic.jpg"),
 mediaType:1,
-mediaUrl: 'https://telegra.ph/file/8737b098fd5702daeb7e0.jpg',
-sourceUrl: "https://telegra.ph/file/8737b098fd5702daeb7e0.jpg"
+mediaUrl: 'https://telegra.ph/file/1e93a5afa1bf8ca483131.jpg',
+sourceUrl: "https://telegra.ph/file/247f318f7abd53d0f6238.jpg"
 }}
 }
 XeonBotInc.sendMessage(m.chat, buttonMessage, { quoted: m })
@@ -1706,10 +1706,10 @@ case 'me': case 'inventory': case 'profile':{
      teksehmazeh += `*🐘Elephant* : ${getGajah(m.sender)}\n\n`
      teksehmazeh += `_*${pushname}*_`
      let butRun = [
-        	{ urlButton: { displayText: `YouTube 🍒`, url : `${websitex}` } },
-        	{ urlButton: { displayText: `Script 🍜`, url : `${botscript}` } },
-            { quickReplyButton: { displayText: `Owner 🤣`, id: 'owner'}},
-            { quickReplyButton: { displayText: `Leaderboard 🎢`, id: 'leaderboard'} }
+        	{ urlButton: { displayText: `YouTube`, url : `${websitex}` } },
+        	{ urlButton: { displayText: `Script`, url : `${botscript}` } },
+            { quickReplyButton: { displayText: `Owner`, id: 'owner'}},
+            { quickReplyButton: { displayText: `Leaderboard`, id: 'leaderboard'} }
         	]
         	XeonBotInc.sendMessage(m.chat, { caption: teksehmazeh, document: fs.readFileSync('./XeonMedia/theme/cheems.xlsx'), mimetype: `${docs}`, fileName: `Want to adventure again?`, templateButtons: butRun, footer: `${botname}`, mentions: [m.sender] })
         	}
@@ -1751,13 +1751,13 @@ if (isBanChat) return reply(mess.banChat)
 reply(` Don't forget to join yeah!
 
 *GROUP 1*
-https://chat.whatsapp.com/HYj9wu5Jrv6CROxyeQbHoS
+https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm
 
 *GROUP 2*
-https://chat.whatsapp.com/LS1Xx3fSqg7FpSYSjKWhL5
+https://chat.whatsapp.com/DdDYyBrfrrW1MIdHf5OdZX
 
 *GROUP 3*
-https://chat.whatsapp.com/EcycNbJFCVT5ZsG9xIGkqd`)
+https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm`)
 break
 case 'getsxvdxcmd': {
 if (isBan) return reply(mess.ban)	 			
@@ -9149,17 +9149,17 @@ for (let i of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: 'YouTube',
 url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'Script 🍜',
+displayText: 'Script',
 url: `${global.botscript}`
 }
 }, {
 quickReplyButton: {
-displayText: 'Bot Status 🚀',
+displayText: 'Bot Status',
 id: 'ping'
 }
 }, {
@@ -9190,17 +9190,17 @@ for (let yoi of anu) {
 await sleep(1500)
 let btn = [{
 urlButton: {
-displayText: 'YouTube 🍓',
+displayText: 'YouTube',
 url: `${global.websitex}`
 }
 }, {
 urlButton: {
-displayText: 'Script 🍜',
+displayText: 'Script',
 url: `${global.botscript}`
 }
 }, {
 quickReplyButton: {
-displayText: 'Bot Status 🚀',
+displayText: 'Bot Status',
 id: 'ping'
 }
 }, {
@@ -9280,7 +9280,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
                     footerText: `${global.botname}`,
                     listType: "SINGLE_SELECT",
                     sections: [{
-								"title": "Initial Features Of Bot 🦄",
+								"title": "Initial Features Of Bot",
 								"rows": [
 									{
 										"title": "Other ☕",
@@ -9290,7 +9290,7 @@ let template = await generateWAMessageFromContent(m.chat, proto.Message.fromObje
 								]
 							},
 							{
-								"title": "Bot Features ❤️",
+								"title": "Bot Features",
 								"rows": [
 									{
 										"title": "All Menu 🥀",
@@ -10945,8 +10945,10 @@ case 'tqtt':
 	   if (isBan) return reply(mess.ban)
 	if (isBanChat) return reply(mess.banChat)
 reply(`Thanks to
-LORD BUDDHA
-Xeon (Me)
+LORD
+Xeon
+Gaara
+Findi
 My family
 And all friends who helped assemble this sexy script !!!`)
 break
