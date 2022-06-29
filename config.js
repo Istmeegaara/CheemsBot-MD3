@@ -44,7 +44,7 @@ global.doc6 = 'application/vnd.android.package-archive'
 global.owner = ['201507384088'] //ur owner number
 global.ownername = "Gaara Setyawan"
 global.ytname = "YT: Gaaraofc" //ur yt chanel name
-global.socialm = "GitHub: Gaaradel" //ur github or insta name
+global.socialm = "GitHub: Garaofc" //ur github or insta name
 global.location = "Indonesia, Wonosobo, Jateng" //ur location
 
 //bot bombdy
@@ -58,7 +58,7 @@ global.reactmoji = "😎"
 global.ownertag = ['201507384088'] //ur owner tag
 global.ownernummenu = ['wa.me/201507384088'] //ur owner number in menu and all
 global.watermark = "Rena Bot MD." //ur watermark
-global.botscript = "https://github.com/gaaradel/botwa"
+global.botscript = "https://github.com/Garaofc"
 global.linkz1 = "https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm"
 global.linkz2 = "https://chat.whatsapp.com/CCyaeuaLuUbAmWCvQvFJLm"
 
